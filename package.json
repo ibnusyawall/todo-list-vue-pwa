@@ -1,0 +1,34 @@
+{
+  "name": "todo-list-vue-pwa",
+  "version": "1.0.0",
+  "description": "Simple todo list app with Vue + Vite + Vite PWA",
+  "private": true,
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibnusyawall/todo-list-vue-pwa.git"
+  },
+  "author": "ibnusyawall",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ibnusyawall/todo-list-vue-pwa/issues"
+  },
+  "homepage": "https://github.com/ibnusyawall/todo-list-vue-pwa#readme",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "generate-pwa-assets": "pwa-assets-generator"
+  },
+  "dependencies": {
+    "vue": "^3.4.15",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@vite-pwa/assets-generator": "^0.2.4",
+    "@vitejs/plugin-vue": "^5.0.3",
+    "sharp": "^0.33.2",
+    "vite": "^5.0.11",
+    "vite-plugin-pwa": "^0.19.0"
+  }
+}
